@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textAlignment="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".activity.DetailActivity">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtDetail"
+                    android:layout_width="372dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:text="Cho thuê phòng ngủ trong căn hộ \n    + Vị trí gần chợ, thuận tiện đi các quận trung tâm và đường rộng ít kẹt xe \n   + Phòng ốc rộng đẹp có thể ở 2 người \n Có thể sử dụng toàn bộ không gian phòng khách phòng bếp \n   + Giá điện nhà nước \n Free nước, free wifi "
+                    android:textColor="#000333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="103dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="28dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/tv_detail"
+                    android:textColor="#1D7ECC"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/googleMapImg" />
+
+                <TextView
+                    android:id="@+id/txtArea"
+                    android:layout_width="366dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableStart="@drawable/ic_baseline_apartment_24"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:text="  Diện tích 21m2"
+                    android:textColor="#333"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtContact" />
+
+                <TextView
+                    android:id="@+id/txtContact"
+                    android:layout_width="366dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:drawableStart="@drawable/ic_baseline_contact_phone_24"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:text="  +84 98 577 94 94 - Cao Trọng Vĩnh"
+                    android:textColor="#333"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAddress" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="366dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:drawableStart="@drawable/ic_baseline_house_24"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:text="  Hẻm 496/9 Dương Quảng Hàm, phường 6, Gò Vấp, Thành phố Hà Nội, Việt Nam"
+                    android:textColor="#333"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+                <com.synnapps.carouselview.CarouselView
+                    android:id="@+id/carouselView"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="50dp"
+                    app:fillColor="#FFFFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:pageColor="#00000000"
+                    app:radius="6dp"
+                    app:slideInterval="3000"
+                    app:strokeColor="#FF777777"
+                    app:strokeWidth="1dp" />
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:text="aaaaaa"
+                    android:textColor="#1D7ECC"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/carouselView" />
+
+                <ImageView
+                    android:id="@+id/googleMapImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtMap"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/txtMap"
+                    android:layout_width="55dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="340dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/tv_map"
+                    android:textColor="#1D7ECC"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtArea" />
+
+                <TextView
+                    android:id="@+id/txtComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="205dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Xem đánh giá và nhận xét"
+                    android:textColor="#1D7ECC"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDetail" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_maps"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000000"
+        android:text="..."
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="59dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#00000000"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_ios_24"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:stateListAnimator="@null"
+        android:text="3,3 triệu/tháng"
+        android:textColor="#1D7ECC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSave"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="59dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#00000000"
+        android:text="" />
+
+
+</RelativeLayout>

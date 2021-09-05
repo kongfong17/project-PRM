@@ -1,1 +1,73 @@
-# project-PRM
+# Pemo Home Application
+Project môn **PRM391** - **??i h?c FPT Hà N?i**
+## ?? tài
+M?t ?ng d?ng giúp sinh viên **??i h?c FPT** d? dàng tìm cho mình m?t nhà tr? ?ng ý nh?t.
+
+## Thành viên
+1. Võ Kh?c Vi?t
+2. ?? Tr?ng Anh Tu?n
+3. Nguy?n M?nh Kiên
+4. Bá Công Phong
+
+## V?n ??
+* Hi?n nay, s? l??ng sinh viên c?a tr??ng ngày càng ?ông, d?n ??n các Dom, kí túc xá c?a tr??ng không còn ch? ?? ?, tình hình sinh viên ra ngoài tìm tr? ngày càng nhi?u.
+
+ * M?t trong nh?ng cách tìm tr? th??ng th?y nh?t c?a sinh viên **FPT** là ??ng bài trên các group c?a tr??ng v? nhu c?u ch? ? c?a mình, và ???c các ch? tr? bình lu?n ? d??i bài ??ng. Cách này có ba h?n ch?:
+    - **Th? nh?t**, group tr??ng là n?i ??ng nhi?u th?, nhi?u th? lo?i, nên bài c?a mình r?t d? b? trôi, khó ti?p c?n ??n nhi?u ch? tr?
+    - **Th? hai**, không bi?t ???c nh?ng ng??i tr??c ?ó ? nh? th? nào, chúng ta ph?i ? th? m?i bi?t ???c nhà tr? ?ó nh? th? nào, d?n ??n nhi?u tr??ng h?p ?óng ti?n n?a n?m mà 1,2 tháng ?ã chuy?n tr?
+    - **Th? ba**, nhi?u ng??i mu?n thuê tr? có các tiêu chí riêng, nh?ng khi ??ng bài thì toàn nh?ng ch? tr? vào spam nhà tr? c?a h? dù không ?? tiêu chí
+
+## Gi?i pháp
+* T? nh?ng h?n ch? trên, nhóm quy?t ??nh vi?t ra m?t app dành riêng cho **sinh viên FPT**. M?t ch? ? cho **4 n?m** ??i h?c c?a mình, n?u nó không t?t s? kéo theo nhi?u v?n ?? khác. App giúp k?t n?i các ch? tr? và sinh viên. 
+* V?i giao di?n d? hi?u, hình ?nh, thông tin chi ti?t, tích h?p ch? ???ng và review ?ánh giá t?ng nhà tr? s? giúp sinh viên d? dàng tìm cho mình m?t nhà tr? g?n bó v?i 4 n?m h?c c?a mình.
+
+## Các ch?c n?ng chính
+1. ***Sign in, Sign up***
+* Chúng ta có th? xem các phòng tr? ngay c? khi ch?a **??ng nh?p**, ch?c n?ng **??ng nh?p** dành cho nh?ng ng??i mu?n **review** v? m?t phòng tr? nào ?ó
+<p align="center">
+  <img src="/image/register.jpg" width="30%"/> | <img src="/image/login.jpg" width="30%"/>
+<p>
+
+2. ***Xem tr?c quan các nhà tr?***
+* Hi?n th? các phòng tr? v?i m?t hình ?nh **n?i b?t**, các thông tin **khái quát** c?a nhà tr? theo **ngày ??ng g?n nh?t**.
+<p align="center">
+  <img src="/image/home.jpg" width="30%"/>
+<p>
+
+3. ***Xem chi ti?t nhà tr?***
+- Hi?n th? hình ?nh **chi ti?t** c?a phong tr? ?ó, các **thông tin** v? tr? và ch? tr?: ??a ch?, di?n tích, mô t? chi ti?t, tên ch? tr?, s? ?i?n tho?i,...
+<p align="center">
+  <img src="/image/chitiet1.jpg" width="30%"/>
+<p>
+- Tích h?p ch? ???ng t? tr??ng ??n tr?
+<p align="center">
+  <img src="/image/chitiet2.jpg" width="30%"/> | <img src="/image/map.jpg" width="30%"/>
+<p>
+- H? tr? chuy?n sang g?i ?i?n, nh?n tin cho ch? tr?
+<p align="center">
+  <img src="/image/more.jpg" width="30%"/>
+<p>
+
+4. ***L?u và xem các nhà tr? ?ã l?u***
+<p align="center">
+  <img src="/image/save.jpg" width="30%"/>
+<p>
+
+5. ***Tìm ki?m ph?ng tr? theo tiêu chí phù h?p***
+* App tích h?p tìm ki?m, filter các tr? phù h?p v?i tiêu chí c?a t?ng ng??i:
+  * Nhà tr? **di?n tích** bao nhiêu ?
+  * **Kho?ng cách** so v?i tr??ng bao xa ?
+  * **M?c giá** th? nào ?
+  <p align="center">
+    <img src="/image/search.jpg" width="30%"/>
+  <p>
+  
+ 6. ***Review phòng tr?***
+ * Ng??i dùng có th? **?ánh giá** nhà tr? qua **tr?i nghi?m** c?a b?n thân
+   <p align="center">
+    <img src="/image/review.jpg" width="30%"/>
+  <p>
+  
+
+
+
